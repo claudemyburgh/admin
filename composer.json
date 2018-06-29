@@ -1,0 +1,25 @@
+{
+    "name": "designbycode/admin",
+    "description": "DesignByCode Admin panel",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Claude Myburgh",
+            "email": "claude@designbycode.co.za"
+        }
+    ],
+    "autoload": {
+
+        "psr-4": {
+            "DesignByCode\\Admin\\": "src/"
+        }
+    },
+    "extra" : {
+        "laravel": {
+            "providers": [
+                "DesignByCode\\Admin\\AdminServiceProvider"
+            ]
+        }
+    },
+    "require": {}
+}
