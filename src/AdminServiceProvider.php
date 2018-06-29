@@ -2,6 +2,7 @@
 
 namespace DesignByCode\Admin;
 
+use Illuminate\Support\ServiceProvider;
 
 
 class AdminServiceProvider extends ServiceProvider
@@ -16,7 +17,7 @@ class AdminServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        dd('Test');
+
     }
 
     /**
